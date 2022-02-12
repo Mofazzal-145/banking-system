@@ -115,3 +115,11 @@ document.getElementById('withdraw-button').addEventListener('click',function(){
     } 
 
 })
+
+
+
+function add(){
+const cbalance= document.getElementById("c-balance").innerText;
+const inputValue= document.getElementById("input").value;
+console.log(cbalance+inputValue)
+}
